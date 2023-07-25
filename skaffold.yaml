@@ -7,8 +7,10 @@ deploy:
 build:
   local:
     push: false
+  googleCloudBuild:
+    projectId: billetterie-dev
   artifacts:
-    - image: juan5987/billeterie_auth
+    - image: jus.gcr.io/billetterie-dev/auth
       context: auth
       docker:
         dockerfile: Dockerfile
