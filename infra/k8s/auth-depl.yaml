@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: juan5987/billeterie_auth
+          image: us.gcr.io/billetterie-dev/auth
 ---
 apiVersion: v1
 kind: Service

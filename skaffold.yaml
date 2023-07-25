@@ -8,7 +8,7 @@ build:
   googleCloudBuild:
     projectId: billetterie-dev
   artifacts:
-    - image: jus.gcr.io/billetterie-dev/auth
+    - image: us.gcr.io/billetterie-dev/auth
       context: auth
       docker:
         dockerfile: Dockerfile
